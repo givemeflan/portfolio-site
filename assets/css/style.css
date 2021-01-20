@@ -1,0 +1,27 @@
+/* CSS for HOMEPAGE */
+
+#section-homepage{
+   
+}
+
+#section1{
+    background-color:red;
+}
+
+#section2{
+    background-color:blue;
+}
+
+.navbar-style{
+    list-style-type:none;
+
+}
+
+li a{
+    color: black;
+    
+}
+
+li a:hover{
+    text-decoration: none;
+}
