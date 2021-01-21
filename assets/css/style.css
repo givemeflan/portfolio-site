@@ -5,11 +5,12 @@
 }
 
 #section1{
-    background-color:red;
+    background-color:#BDBEBF;
 }
 
 #section2{
     background-color:blue;
+    height:750px;
 }
 
 .navbar-style{
@@ -19,9 +20,63 @@
 
 li a{
     color: black;
-    
+    background-color:pink;
+    font-size:36px;
 }
 
 li a:hover{
     text-decoration: none;
+}
+
+/* About Section/Personal Bio */
+.about-sec{
+    background-color: orange;
+   
+}
+
+h2{
+   
+}
+
+.paragraph-area{
+   
+}
+
+
+/* Projects Section  */
+.projects-sec{
+    background-color: #BDBEBF;
+}
+
+#project{
+    padding-top: 30px;
+    /* background-color:red; */
+}
+
+#projects-title{
+    text-align: center;
+}
+
+/* Footer Section */
+
+.footer-area{
+    background-color: pink;
+}
+h4{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links-sec{
+    list-style-type:none;
+    text-align: center;
+}
+
+.links-sec li{
+    display: inline;
+}
+
+.page-footer{
+    background-color: #4D4D4D;
+    color:white;
 }
