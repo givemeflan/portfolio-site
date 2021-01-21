@@ -9,19 +9,21 @@
 }
 
 #section2{
-    background-color:blue;
-    height:750px;
+    height:740px;
 }
 
 .navbar-style{
     list-style-type:none;
+    /* background-color: orange; */
+    width:50%;
+    margin: 0 auto;
+
 
 }
 
 li a{
     color: black;
-    background-color:pink;
-    font-size:36px;
+    font-size:70px;
 }
 
 li a:hover{
@@ -57,8 +59,8 @@ h2{
     text-align: center;
 }
 
-/* Footer Section */
 
+/* Footer Section */
 .footer-area{
     background-color: pink;
 }
@@ -76,7 +78,19 @@ h4{
     display: inline;
 }
 
+.links-sec li:hover{
+    color: white;
+}
+
 .page-footer{
     background-color: #4D4D4D;
     color:white;
+}
+
+#kitty-logo{
+    color:white;
+}
+
+#kitty-logo:hover{
+    color:pink;
 }
