@@ -14,8 +14,11 @@
 
 .navbar-style{
     list-style-type:none;
-    /* background-color: orange; */
-    width:50%;
+    background-color: orange;
+    position: relative;
+    top:150px;
+
+    width:80%;
     margin: 0 auto;
 
 
