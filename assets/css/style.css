@@ -5,7 +5,7 @@
 }
 
 #section1{
-    background-color:#BDBEBF;
+    background-color:#EDDBD1;
 }
 
 #section2{
@@ -14,7 +14,7 @@
 
 .navbar-style{
     list-style-type:none;
-    background-color: orange;
+    /* background-color: orange; */
     position: relative;
     top:150px;
 
