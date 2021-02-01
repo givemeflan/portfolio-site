@@ -1,50 +1,30 @@
 /* CSS for HOMEPAGE */
 
-#section-homepage{
-   
-}
-
 #section1{
     background-color:#EDDBD1;
 }
-
 #section2{
     height:740px;
 }
-
 .navbar-style{
     list-style-type:none;
-    /* background-color: orange; */
     position: relative;
     top:150px;
-
     width:80%;
     margin: 0 auto;
-
-
 }
-
 li a{
     color: black;
     font-size:70px;
 }
-
 li a:hover{
     text-decoration: none;
 }
 
+
 /* About Section/Personal Bio */
 .about-sec{
-    background-color: orange;
-   
-}
-
-h2{
-   
-}
-
-.paragraph-area{
-   
+    background-color: orange; 
 }
 
 
@@ -52,12 +32,9 @@ h2{
 .projects-sec{
     background-color: #BDBEBF;
 }
-
 #project{
     padding-top: 30px;
-    /* background-color:red; */
 }
-
 #projects-title{
     text-align: center;
 }
@@ -95,5 +72,32 @@ h4{
 }
 
 #kitty-logo:hover{
-    color:pink;
+    color:rgb(202, 115, 129);
+}
+
+@media screen and (max-width: 600px) 
+{
+    .navbar-style{
+        top: 0px;
+    }
+
+    li a{
+        color: black;
+        font-size:20px;
+    }
+
+    #section1{
+        display:none;
+    }
+
+    .navbar-hamburger{
+    list-style-type:none;
+    
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .navhamburger{
+        display:none;
 }
