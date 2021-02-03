@@ -1,6 +1,6 @@
 /* CSS for HOMEPAGE */
 #section1{
-    background-color:#EDDBD1;
+    background-color:#F4F4F4;
 }
 #section2{
     height:720px;
@@ -18,6 +18,12 @@ li a{
 }
 li a:hover{
     text-decoration: none;
+}
+
+h1{
+    /* background-color: orange; */
+    width: 450px;
+   
 }
 
 
@@ -105,7 +111,7 @@ h4{
 
     #section2{
         height:400px;
-        background-image:url('assets/images/flatlay2.jpg');
+        background-image:url('assets/images/flat-lay.jpg');
         background-position:100%;
     }
 
@@ -113,7 +119,7 @@ h4{
         width:60%;
         padding-left:20px;
         padding-right:10px;
-        margin-top:47px;
+        margin-top:140px;
         line-height: 52px;
         font-size: 35px;
     }
@@ -138,48 +144,9 @@ h4{
 }
 
 #section2{
-    background-image:url('assets/images/flatlay2.jpg');
+    background-image:url('assets/images/flat-lay.jpg');
     background-position:100%;
     }
 
 }
-
-@media screen and (min-width: 750px) and (max-width: 800px)
-{
-
-    .navhamburger{
-        display:none;
-}
-    li a {
-        font-size:35px;
-    }
-
-
-}
-
-#section2{
-    height:400px;
-    background-image:url('assets/images/flatlay2.jpg');
-    background-position:100%;
-}
-
-
-
-/* /* li a{
-    /* color: black; */
-    /* font-size:45px; */ */
-   /* background-color:red; */
-} */
-
-/* .navbar-style{
-    
-    top:170px;
-    width:95%;
-    margin: 0 auto;
-} */
-
-/* #main-homepage{
-    height:700px;
-} */
-
 
