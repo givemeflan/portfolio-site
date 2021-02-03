@@ -3,39 +3,41 @@
     background-color:#F4F4F4;
 }
 #section2{
-    height:720px;
+    height:710px;
 }
 .navbar-style{
     list-style-type:none;
     position: relative;
-    top:150px;
+    top:170px;
     width:80%;
     margin: 0 auto;
 }
 li a{
     color: black;
-    font-size:65px;
+    font-size:60px;
 }
 li a:hover{
     text-decoration: none;
+    color: #F1CF93;
 }
 
 h1{
-    /* background-color: orange; */
     width: 450px;
-   
 }
 
 
 /* About Section/Personal Bio */
 .about-sec{
-    background-color: orange; 
+    background-color: #E4EBE7;
+    padding: 40px 0px 40px 0px;
 }
 
 
 /* Projects Section  */
 .projects-sec{
-    background-color: #BDBEBF;
+    background-color: #F4F5F0;
+    padding: 40px 0px 40px 0px;
+    /* background-color:#F4F4F4; */
 }
 #project{
     padding-top: 30px;
@@ -45,9 +47,16 @@ h1{
 }
 
 
+/* Resume Section */
+.resume-sec{
+    background-color:#E4EBE7;
+    padding: 40px 0px 40px 0px;
+}
+
+
 /* Footer Section */
 .footer-area{
-    background-color: pink;
+    background-color: #E8DED1;
 }
 h4{
     text-align: center;
@@ -68,16 +77,19 @@ h4{
 }
 
 .page-footer{
-    background-color: #4D4D4D;
+    /* background-color: #4D4D4D; */
+    background-color: #C8AD7E;
     color:white;
 }
 
 #kitty-logo{
     color:white;
+    padding-left: 10px;
+    font-size: 20px;
 }
 
 #kitty-logo:hover{
-    color:rgb(202, 115, 129);
+    color:black;
 }
 
 
@@ -146,6 +158,16 @@ h4{
 #section2{
     background-image:url('assets/images/flat-lay.jpg');
     background-position:100%;
+    }
+
+    .paragraph-area{
+    width:700px;
+    margin: 0 auto;
+    text-align: justify;
+    }
+
+    h2{
+        text-align:center;
     }
 
 }
