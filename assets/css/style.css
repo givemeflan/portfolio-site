@@ -23,20 +23,17 @@ li a:hover{
 }
 
 #main-title{
-    background-color:#CDCFCF;
-    opacity: 0.6;
-    width:500px;
+    top: 61%;
+    bottom: 50%;
+    left:10%;
+    position: absolute;
 }
 
 h1{
-    width: 300px;
     color: #343D46;
     font-size:75px;
+    font-weight:700px;
     font-family: 'Raleway', sans-serif;  
-    margin-right: 20%;
-    margin-left: 20%;
-    margin-top: 100px;
-
 }
 
 h2{
@@ -78,7 +75,6 @@ h2{
 
 /* Footer Section */
 .footer-area{
-    /* background-color: #EFE0C8; */
     background-color: #343D46;
     border-width:1px;
     border-style: solid;
@@ -107,7 +103,6 @@ h6{
 }
 
 .page-footer{
-    /* background-color: #4D4D4D; */
     background-color: #343D46;
     color:#F3EAC0;
     font-size:12px;
@@ -134,7 +129,6 @@ h6{
     li a{
         color: orange;
         font-size:35px;
-        
     }
 
     #section1{
@@ -160,8 +154,9 @@ h6{
 
 
     #main-title{
-        width:200px;
-        margin-left: 40px;
+        /* width:200px;
+        margin-left: 40px; */
+        display: none;
     }
 
     h1{
