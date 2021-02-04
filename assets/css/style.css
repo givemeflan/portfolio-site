@@ -5,17 +5,26 @@
 #section2{
     height:740px;
 }
+
+.logo-area{
+   /* padding-left: 10px; */
+   /* width: 100%; */
+   /* margin: 0 auto; */
+   padding-left: 10px;
+   
+}
 .navbar-style{
     list-style-type:none;
     position: relative;
-    top:170px;
-    width:80%;
+    top:15px;
+    width:71%;
     margin: 0 auto;
 }
 li a{
     color: #F1CF93;
-    font-size:60px;
+    font-size:50px;
     font-family: 'Lato', sans-serif;
+    line-height: 1.5em;
 }
 li a:hover{
     text-decoration: none;
