@@ -1,9 +1,9 @@
 /* CSS for HOMEPAGE */
 #section1{
-    background-color:#F4F4F4;
+    background-color: #343D46;
 }
 #section2{
-    height:710px;
+    height:740px;
 }
 .navbar-style{
     list-style-type:none;
@@ -13,38 +13,60 @@
     margin: 0 auto;
 }
 li a{
-    color: black;
+    color: #F1CF93;
     font-size:60px;
+    font-family: 'Lato', sans-serif;
 }
 li a:hover{
     text-decoration: none;
     color: #F1CF93;
 }
 
+#main-title{
+    background-color:#CDCFCF;
+    opacity: 0.6;
+    width:500px;
+}
+
 h1{
-    width: 450px;
+    width: 300px;
+    color: #343D46;
+    font-size:75px;
+    font-family: 'Raleway', sans-serif;  
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top: 100px;
+
+}
+
+h2{
+    color:#343D46;
 }
 
 
 /* About Section/Personal Bio */
 .about-sec{
     background-color: #E4EBE7;
-    padding: 40px 0px 40px 0px;
+    padding: 60px 0px 60px 0px;
 }
+
 
 
 /* Projects Section  */
 .projects-sec{
     background-color: #F4F5F0;
     padding: 40px 0px 40px 0px;
-    /* background-color:#F4F4F4; */
+   
 }
 #project{
     padding-top: 30px;
 }
 #projects-title{
     text-align: center;
+    color: #D3AE6E;
 }
+
+
 
 
 /* Resume Section */
@@ -56,16 +78,24 @@ h1{
 
 /* Footer Section */
 .footer-area{
-    background-color: #E8DED1;
+    /* background-color: #EFE0C8; */
+    background-color: #343D46;
+    border-width:1px;
+    border-style: solid;
+    border-color: #4f5b66;
 }
-h4{
+h6{
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
+    color:#F3EAC0; 
 }
 
 .links-sec{
     list-style-type:none;
     text-align: center;
+    color: #F3EAC0;
+    font-size:12px;
+    
 }
 
 .links-sec li{
@@ -78,18 +108,19 @@ h4{
 
 .page-footer{
     /* background-color: #4D4D4D; */
-    background-color: #C8AD7E;
-    color:white;
+    background-color: #343D46;
+    color:#F3EAC0;
+    font-size:12px;
 }
 
-#kitty-logo{
-    color:white;
-    padding-left: 10px;
-    font-size: 20px;
+#kitty-logo, #linkedin, #email{
+    color:#F3EAC0;
+    padding-left: 5px;
+    font-size: 12px;
 }
 
 #kitty-logo:hover{
-    color:black;
+    color:#F9BDC0;
 }
 
 
@@ -127,25 +158,39 @@ h4{
         background-position:100%;
     }
 
+
+    #main-title{
+        width:200px;
+        margin-left: 40px;
+    }
+
     h1{
         width:60%;
         padding-left:20px;
         padding-right:10px;
         margin-top:140px;
         line-height: 52px;
-        font-size: 35px;
+        font-size: 35px; 
     }
-
-    /* .paragraph-area{
-        width:90%;
-        margin: 0 auto;
-    } */
 
     .container{
         margin: 0 auto;
         width:85%;
         
     }
+
+    
+    .about-box{
+        border-width: 5px;
+        border-style:dashed;
+        border-color:white;
+        padding: 25px 10px 25px 10px;
+    }
+
+    .paragraph-style{
+        padding: 5px;
+    }
+
 }
 
 
@@ -164,11 +209,21 @@ h4{
     width:700px;
     margin: 0 auto;
     text-align: justify;
+    font-size:20px;
     }
 
     h2{
         text-align:center;
     }
 
+    .about-box{
+        border-width: 5px;
+        border-style:dashed;
+        border-color:white;
+        width: 840px;
+        margin: 0 auto;
+        padding-top:25px;
+        padding-bottom: 35px;
+    }
 }
 
