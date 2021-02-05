@@ -3,7 +3,7 @@
     background-color: #343D46;
 }
 #section2{
-    height:740px;
+    height:750px;
 }
 
 .logo-area{
@@ -33,7 +33,7 @@ li a:hover{
 }
 
 #main-title{
-    top: 61%;
+    top: 60%;
     bottom: 50%;
     left:10%;
     position: absolute;
@@ -41,14 +41,17 @@ li a:hover{
 
 h1{
     color: #343D46;
-    font-size:70px;
+    font-size:65px;
     font-weight:700px;
+    /* padding-bottom:10px; */
     /* font-family: 'Raleway', sans-serif;   */
-    font-family: 'Lato', sans-serif;
+    /* font-family: 'Lato', sans-serif; */
+    font-family: 'Playfair Display', serif;
 }
 
 h2{
     color:#343D46;
+    font-family: 'Playfair Display', serif;
 }
 
 
@@ -201,8 +204,6 @@ h6{
         padding: 6px;
     }
 
-
-
 }
 
 
@@ -224,6 +225,7 @@ h6{
     font-size:20px;
     padding-bottom: 10px;
     padding-top: 5px;
+    font-family: 'Lato', sans-serif;
     }
 
     h2{
