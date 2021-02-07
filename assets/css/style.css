@@ -136,13 +136,14 @@ h6{
 /* Media Query for Mobile */
 @media screen and (max-width: 600px) 
 {
-    .navbar-style{
+    /* .navbar-style{
         top: 0px;
-    }
+    } */
 
     li a{
-        color: orange;
+        color: #F1CF93;
         font-size:35px;
+        padding-bottom: 10px;
     }
 
     #section1{
