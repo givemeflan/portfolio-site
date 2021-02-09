@@ -46,6 +46,9 @@ h1{
 h2{
     color:#343D46;
     font-family: 'Playfair Display', serif;
+    /* font-family: 'Raleway', sans-serif; */
+    /* font-weight:700px; */
+    /* font-size:40px; */
 }
 
 
@@ -221,6 +224,7 @@ h6{
     font-size:20px;
     padding-bottom: 10px;
     padding-top: 5px;
+     font-family: 'Raleway', sans-serif;
     }
 
     .paragraph-style{
