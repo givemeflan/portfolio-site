@@ -78,7 +78,8 @@ h2{
 /* Resume Section */
 .resume-sec{
     padding: 40px 0px 40px 0px;
-    background-color: #343D46;
+    /* background-color: #343D46; */
+    background-color: #E4EBE7;
 }
 
 #resume-title{
@@ -94,7 +95,9 @@ h2{
     padding-top: 70px;
     font-size: 58px;
     font-family: 'Playfair Display', serif;
-    color: #697184;
+    /* color: #697184; */
+    /* color: black */
+    color: #D3AE6E;
 }
 
 #column-1 {
@@ -131,9 +134,16 @@ a:hover {
     padding-top: 10px;
 } */
 
+.volunteer-p{
+    margin-top: -7px;
+}
 
 .education-sec {
     padding-top: 12px;
+}
+
+.education-p{
+    margin-top:-5px;
 }
 
 #experience-area {
@@ -153,13 +163,16 @@ h4 {
     padding-bottom: 3px;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
-    color: #697184;
+    /* color: #697184; */
+    /* color: black;  */
+    color: #D3AE6E;
 }
 
 h5 {
     text-decoration: underline;
     font-family: 'Raleway', sans-serif;
     font-weight: 600;
+    color: #D3AE6E;
 }
 
 .col1-row1 {
@@ -186,13 +199,20 @@ h5 {
     text-align: left;
     width: 80%;
     margin-left: 25px;
+    background-color: pink;
 }
 
 .resumeh6{
     text-align:left;
-    color: #e9e9e9;
+    /* color: #e9e9e9; */
+    /* color: black; */
+    color: #D3AE6E;
 }
 
+.right-col-sec{
+    background-color: orange;
+    margin-top: 25px;
+}
 
 
 
