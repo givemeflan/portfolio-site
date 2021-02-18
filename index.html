@@ -39,61 +39,68 @@
    <body>
       <section id="main-homepage">
          <div class="row">
-         <div class="col-sm-3" id="section1">
-            <div class="logo-area">
-               <img src="assets/images/logo.png" height="350px"  alt="personal business logo">
+            <div class="col-sm-3" id="section1">
+               <div class="logo-area">
+                  <img src="assets/images/logo.png" height="350px" alt="personal business logo">
+               </div>
+               <ul class="navbar-style" media="(min-width: 768x)">
+                  <li><a href="#about-sec">About</a></li>
+                  <li><a href="#project-sec">Projects</a></li>
+                  <li><a href="#resume-sec">Resume</a></li>
+                  <li><a href="#craft-sec">Crafts</a></li>
+               </ul>
             </div>
-            <ul class="navbar-style"  media="(min-width: 768x)">
-               <li><a href="#about-sec">About</a></li>
-               <li><a href="#project-sec">Projects</a></li>
-               <li><a href="#resume-sec">Resume</a></li>
-               <li><a href="#craft-sec">Crafts</a></li>
-            </ul>
-         </div>
-         <!-- Homepage picture/Column 2 -->
-         <div class="col-sm-9" id="section2" style="background-image:url('assets/images/flat-lay.jpg'); max-width:100%; background-size:cover;" alt="image of a flatlay of a desk" height="800px">
-            <!-- Hamburger Navbar on Mobile -->
-            <div class="navhamburger" media="(max-width: 600x)">
-               <div class="pos-f-t">
-                  <div class="collapse" id="navbarToggleExternalContent">
-                     <div class="bg-dark p-4">
-                        <ul class="navbar-hamburger">
-                           <li><a href="#about-sec">About</a></li>
-                           <li><a href="#project-sec">Projects</a></li>
-                           <li><a href="#resume-sec">Resume</a></li>
-                           <li><a href="#craft-sec">Crafts</a></li>
-                        </ul>
+            <!-- Homepage picture/Column 2 -->
+            <div class="col-sm-9" id="section2"
+               style="background-image:url('assets/images/flat-lay.jpg'); max-width:100%; background-size:cover;"
+               alt="image of a flatlay of a desk" height="800px">
+               <!-- Hamburger Navbar on Mobile -->
+               <div class="navhamburger" media="(max-width: 600x)">
+                  <div class="pos-f-t">
+                     <div class="collapse" id="navbarToggleExternalContent">
+                        <div class="bg-dark p-4">
+                           <ul class="navbar-hamburger">
+                              <li><a href="#about-sec">About</a></li>
+                              <li><a href="#project-sec">Projects</a></li>
+                              <li><a href="#resume-sec">Resume</a></li>
+                              <li><a href="#craft-sec">Crafts</a></li>
+                           </ul>
+                        </div>
                      </div>
+                     <nav class="navbar navbar-dark bg-dark">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                           data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent"
+                           aria-expanded="false" aria-label="Toggle navigation">
+                           <span class="navbar-toggler-icon"></span>
+                        </button>
+                     </nav>
                   </div>
-                  <nav class="navbar navbar-dark bg-dark">
-                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-                     <span class="navbar-toggler-icon"></span>
-                     </button>
-                  </nav>
+               </div>
+               <div id="main-title">
+                  <h1><span style="font-family: 'Raleway', sans-serif;">DEVELOPER</span> by Day</h1>
+                  <h1><span style="font-family: 'Beth Ellen', cursive; font-size: 65px;">Crafter</span> by Night</h1>
                </div>
             </div>
-         <div id="main-title">
-            <h1><span style="font-family: 'Raleway', sans-serif;">DEVELOPER</span> by Day</h1>
-            <h1><span style="font-family: 'Beth Ellen', cursive; font-size: 65px;">Crafter</span> by Night</h1>
-         </div>
-         </div>
       </section>
       <!-- About section -->
       <section class="about-sec">
          <div class="container">
             <div class="row" id="about-sec">
                <div class="col-sm-12">
-                  <div class= "about-box">
-                  <h2> HELLO! SALUT! 
-                     CHÀO BẠN!</h2>
-                  <p class="paragraph-area">Hi there! My name is Laura and I'm a former banker turned Web Developer who enjoys coding on the front-end by day and creating functional crafts by night.</p>
-                     
-                  <p class="paragraph-area">When I'm not working with HTML5, CSS3, JavaScript, and Java, you can usually find me tinkering around with polymer clay and resin (sometimes) or baking some sweets.</p>
-
-                  <p class="paragraph-area">Check out some of my projects to see what I have been up to. If you like what you see, feel free to contact me! </p>
+                  <div class="about-box">
+                     <h2> HELLO! SALUT!
+                        CHÀO BẠN!</h2>
+                     <p class="paragraph-area">Hi there! My name is Laura and I'm a former banker turned Web Developer who
+                        enjoys coding on the front-end by day and creating functional crafts by night.</p>
+   
+                     <p class="paragraph-area">When I'm not working with HTML5, CSS3, JavaScript, and Java, you can usually
+                        find me tinkering around with polymer clay and resin (sometimes) or baking some sweets.</p>
+   
+                     <p class="paragraph-area">Check out some of my projects to see what I have been up to. If you like
+                        what you see, feel free to contact me! </p>
+                  </div>
                </div>
             </div>
-         </div>
          </div>
       </section>
       <!-- Portfolio Section-->
@@ -141,10 +148,45 @@
                <div class="col-sm-12">
                   <h2 id="resume-title"> RESUME</h2>
                   <div class="row">
-                     <div class="col-sm-5" id="column-1">
+                     <div class="col-sm-6 offset-sm-1" id="column-2">
+                        <div class="right-col-sec">
+                           <div class="education-sec">
+                              <h4> Education </h4>
+                              <h6 class="resumeh6">Bachelor of Arts in International Studies </h6>
+                              <p class="education-p"> Minor in Business Administration</p>
+                              <p class="education-p"> Texas State University, San Marcos, TX</p>
+                              <h6 class="resumeh6"> UNC Charlotte Full Stack Web Development Certificate</h6>
+                              <p class="education-p"> University of North Carolina Charlotte, Charlotte, NC </p>
+                              <h6 class="resumeh6"> Foundation Full Stack Java </h6>
+                              <p class="education-p"> Tech Talent South </p>
+                           </div>
+                           <div class="experience-sec">
+                              <h4> Experience </h4>
+                              <h6 class="resumeh6"> Independent Contractor</h6>
+                              <p class="education-p"> Apr.2020 - Present</p>
+                              <h6 class="resumeh6"> Junior Web Developer</h6>
+                              <p class="education-p"> Mar. 2019 - Apr. 2020</p>
+                              <p class="experience-p"> 2two5 Agency</p>
+                              <div class="experience-area">
+                                 <p class="experience-p"> - Worked with team and staff to build, re-design, and test
+                                    websites from concept to commercialization (including the official company website)
+                                 </p>
+                                 <p class="experience-p">- Participated in interdepartmental strategy and marketing
+                                    meetings</p>
+                                 <p class="experience-p">- Assisted lead developer with client website management </p>
+                                 <p class="experience-p"> - Communicated with staff and management on project deadlines
+                                    processes and delays. </p>
+                                 <p class="experience-p">- Created a client website information packet to assist clientele
+                                    with processes and policies of 2two5</p>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-sm-3 offset-sm-1" id="column-1">
                         <div class="col1-row3">
                            <h4> Skills</h4>
-                           <p class="skills-details"> HTML5, CSS3, Bootstrap, JavaScript, Java, MySQL, mongoDB, WordPress, Site Hosting, Web Design, Front-End Web Development</p>
+                           <p class="skills-details"> HTML5, CSS3, Bootstrap, JavaScript, Java, MySQL, mongoDB, WordPress,
+                              Site Hosting, Web Design, Front-End Web Development</p>
                         </div>
                         <div class="col1-row3">
                            <h4> Tools</h4>
@@ -164,33 +206,9 @@
                            <h4> Location</h4>
                            <p class="skills-details"> <i class="fas fa-globe"></i> U.S</p>
                         </div>
-                     </div>
-                     <div class="col-sm-7" id="column-2">
-                        <div class="right-col-sec">
-                           <div class="education-sec">
-                              <h4> Education </h4>
-                              <h6 class="resumeh6">Bachelor of Arts in International Studies </h6>
-                              <p class="education-p"> Minor in Business Administration</p>
-                              <p class="education-p"> Texas State University, San Marcos, TX</p>
-                              <h6 class="resumeh6"> UNC Charlotte Full Stack Web Development Certificate</h6>
-                              <p class="education-p"> University of North Carolina Charlotte, Charlotte, NC </p>
-                              <h6 class="resumeh6"> Foundation Full Stack Java </h6>
-                              <p class="education-p"> Tech Talent South </p>
-                           </div>
-                           <div class="experience-sec">
-                              <h4> Experience </h4>
-                              <h6 class="resumeh6"> Junior Web Developer</h6>
-                              <p class="education-p"> Mar. 2019- Apr. 2020</p>
-                              <p class="experience-p"> 2two5 Agency</p>
-                           <div class="experience-area">
-                                 <p class="experience-p"> - Worked with team and staff to build, re-design, and test websites from concept to commercialization (including the official company website)
-                                 </p>
-                                 <p class="experience-p">- Participated in interdepartmental strategy and marketing meetings</p>
-                                 <p class="experience-p">- Assisted lead developer with client website management </p>
-                                 <p class="experience-p"> - Communicated with staff and management on project deadlines processes and delays. </p>
-                                 <p class="experience-p">- Created a client website information packet to assist clientele with processes and policies of 2two5</p>
-                              </div>
-                           </div>
+                        <div class="col1-row3">
+                           <h4> Full Resume</h4>
+                           <a class="resume-link" href="https://github.com/givemeflan/portfolio-site" target="_blank">Click Here</a>
                         </div>
                      </div>
                   </div>
@@ -203,7 +221,7 @@
          <div class="container">
             <div class="row" id="craft-sec">
                <div class="col-sm-12">
-                  <h2 id="projects-title"> CRAFTS BY L.L STUDIO </h2> 
+                  <h2 id="projects-title"> CRAFTS BY L.L STUDIO </h2>
                </div>
                <div class="row" id="project">
                   <div class="col-sm-4">
@@ -226,11 +244,12 @@
       <section class="footer-area">
          <div class="container">
             <div class="row">
-               <div class="col-sm-12" >
+               <div class="col-sm-12">
                   <h6 class="contact-title"> CONTACT</h6>
                   <ul class="links-sec">
                      <li>Github Page</li>
-                     <a href="https://github.com/givemeflan" target="_blank"><i class="fab fa-github-alt" id="kitty-logo"></i></a>
+                     <a href="https://github.com/givemeflan" target="_blank"><i class="fab fa-github-alt"
+                           id="kitty-logo"></i></a>
                      |
                      <li>LinkedIn </li>
                      <i class="fab fa-linkedin-in" id="linkedin"></i>
@@ -244,9 +263,10 @@
       </section>
       <footer class="page-footer font-small blue">
          <!-- Copyright -->
-         <div class="footer-copyright text-center py-3">© 2021 Copyright: L.L Studio & 
+         <div class="footer-copyright text-center py-3">© 2021 Copyright: L.L Studio &
             Give Me Flan
          </div>
+   
          
       </footer>
       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>

@@ -69,8 +69,11 @@ h2{
 
 /* Resume Section */
 .resume-sec{
-    padding: 40px 0px 40px 0px;
+    padding: 40px 0px 60px 0px;
     background-color: #E4EBE7;
+}
+#resume-area{
+    /* background-color: blue; */
 }
 #resume-title{
     font-family: 'Playfair Display', serif;
@@ -134,7 +137,7 @@ h5 {
     color: #343D46;
 }
 .col1-row1 {
-    /* background-color: green; */
+    background-color: green;
     margin-top: 30px;
     text-align: left;
     width: 80%;
@@ -157,6 +160,13 @@ h5 {
 }
 .fas fa-globe{
     color: #919CA8;
+}
+.resume-link{
+    color:#D3AE6E;
+}
+.resume-link:hover{
+    text-decoration: none;
+    color: #F9BDC0;
 }
 
 
@@ -183,7 +193,7 @@ h6{
     display: inline;
 }
 .links-sec li:hover{
-    color: white;
+    color: #F9BDC0;
 }
 .page-footer{
     background-color: #343D46;
@@ -253,12 +263,15 @@ h6{
 	h4 {
 		text-align: left;
 	}
+    .education-sec{
+        margin-top:-7px;
+    }
 	.education-p {
 		text-align: left;
 	}
 
     .experience-area{
-        padding-bottom: 30px;
+        margin-bottom: -5px;
     }
 	#resume-title,
 	#projects-title {
@@ -277,6 +290,19 @@ h6{
 	#project {
 		padding-right: 10px;
 	}
+
+    #craft-sec{
+        padding-bottom: 30px;
+    }
+    .resume-sec{
+        padding-bottom: 40px;
+    }
+    #kitty-logo:hover{
+        color:#F9BDC0;
+    }
+    .links-sec li:hover{
+        color: #F9BDC0;
+    }
 }
 
 
