@@ -23,7 +23,6 @@ With this project, I will be creating a personal portfolio site to display some 
 1. https://fontawesome.com/icons/envelope-open-text?style=solid 
 2. https://fontawesome.com/icons/linkedin-in 
 3. https://fontawesome.com/icons/github 
-4. https://fontawesome.com/icons/globe
 
 - Google Fonts: 
 1. https://fonts.google.com/specimen/Playfair+Display?preview.text_type=custom&selection.family=Playfair+Display 
