@@ -2,7 +2,8 @@
 With this project, I will be creating a personal portfolio site to display some of my projects. Published Link is here: https://givemeflan.github.io/portfolio-site/
 
 ## Screenshots
-![homepage](https://user-images.githubusercontent.com/66345751/107982290-bf93af00-6f91-11eb-99d7-52cb288929df.JPG)
+![homepage](https://user-images.githubusercontent.com/66345751/117826133-ec2c2f80-b23d-11eb-9708-1c8fd071410b.JPG)
+
 
 ## Resources: 
 
